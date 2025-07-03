@@ -1,0 +1,45 @@
+:root {
+    --bg-primary: radial-gradient(circle at center, #000000, #050517);
+    --bg-secondary: rgba(255, 255, 255, 0.1);
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --accent-color: #1e90ff;
+    --panel-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --border-radius: 16px;
+}
+
+.dark-mode {
+    --bg-primary: radial-gradient(circle at center, #050517, #000033);
+    --bg-secondary: rgba(0, 0, 0, 0.3);
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    --accent-color: #4a9eff;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: var(--bg-primary);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    color: var(--text-primary);
+    transition: background 0.5s ease;
+}
+
+#control-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--panel-shadow);
+    width: 260px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+/* ... (rest of the CSS remains exactly the same as previous version) ... */

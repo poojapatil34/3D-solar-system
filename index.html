@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Solar System with Image Textures</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <div id="control-panel">
+        <div class="panel-header">
+            <h2>🌌 Solar System Control</h2>
+            <button id="toggle-theme">🌙</button>
+        </div>
+        
+        <div id="sliders" class="scrollable">
+            <!-- Sliders will be generated dynamically -->
+        </div>
+        
+        <div class="control-buttons">
+            <button id="toggle-animation">⏸ Pause</button>
+            <button id="reset-speeds">🔄 Reset</button>
+            <button id="reset-camera">🎥 Reset View</button>
+        </div>
+    </div>
+    
+    <div id="planet-info" class="hidden">
+        <h3 id="planet-name"></h3>
+        <p id="planet-details"></p>
+    </div>
+    
+    <canvas id="solarCanvas"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>
