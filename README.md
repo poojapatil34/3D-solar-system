@@ -1,10 +1,8 @@
-# 3D Solar System Simulation with Image Textures 🌌
-
-![Solar System Screenshot](assets/images/sun.jpg) <!-- Replace with actual screenshot if available -->
+# 3D Solar System Simulation with Image Textures 
 
 An interactive 3D model of our solar system built with Three.js, featuring realistic planet textures and customizable orbital controls.
 
-## Features ✨
+## Features 
 
 - **Realistic 3D Rendering**:
   - Sun with glow effect
@@ -23,4 +21,4 @@ An interactive 3D model of our solar system built with Three.js, featuring reali
   - Smooth animations with delta timing
   - Responsive design for all screen sizes
 
-## Project Structure 📁
+
