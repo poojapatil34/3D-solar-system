@@ -21,21 +21,29 @@ class SolarSystem {
         this.planets = [];
         this.planetsData = [
             { name: "Mercury", size: 0.2, distance: 5, speed: 0.04, texture: "mercury.jpg", 
-              info: "The smallest planet in our solar system and closest to the Sun." },
+            //   info: "The smallest planet in our solar system and closest to the Sun."// 
+            },
             { name: "Venus", size: 0.4, distance: 7, speed: 0.03, texture: "venus.jpg", 
-              info: "Similar in size to Earth, but with a toxic atmosphere of carbon dioxide." },
+            //   info: "Similar in size to Earth, but with a toxic atmosphere of carbon dioxide." 
+            },
             { name: "Earth", size: 0.5, distance: 9, speed: 0.02, texture: "earth.jpg", 
-              info: "Our home planet, the only known place in the universe confirmed to host life." },
+            //   info: "Our home planet, the only known place in the universe confirmed to host life." 
+            },
             { name: "Mars", size: 0.3, distance: 11, speed: 0.018, texture: "mars.jpg", 
-              info: "The Red Planet, home to the tallest mountain in the solar system." },
+            //   info: "The Red Planet, home to the tallest mountain in the solar system." 
+            },
             { name: "Jupiter", size: 1.0, distance: 14, speed: 0.01, texture: "jupiter.jpg", 
-              info: "The largest planet in our solar system, a gas giant with a Great Red Spot." },
+            //   info: "The largest planet in our solar system, a gas giant with a Great Red Spot." 
+            },
             { name: "Saturn", size: 0.9, distance: 17, speed: 0.008, texture: "saturn.jpg", 
-              info: "Famous for its beautiful rings made of ice and rock particles." },
+            //   info: "Famous for its beautiful rings made of ice and rock particles." 
+            },
             { name: "Uranus", size: 0.6, distance: 20, speed: 0.006, texture: "uranus.jpg", 
-              info: "An ice giant that rotates on its side, with rings and 27 moons." },
+            //   info: "An ice giant that rotates on its side, with rings and 27 moons." 
+            },
             { name: "Neptune", size: 0.6, distance: 23, speed: 0.005, texture: "neptune.jpg", 
-              info: "The windiest planet with the strongest winds in the solar system." }
+            //   info: "The windiest planet with the strongest winds in the solar system." 
+            }
         ];
     }
     
